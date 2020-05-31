@@ -4,10 +4,12 @@ import User from '../app/models/User';
 import Recipients from '../app/models/Recipients';
 import Deliveryman from '../app/models/Deliveryman';
 import File from '../app/models/File';
+import Order from '../app/models/Order';
+import DeliveryProblems from '../app/models/DeliveryProblems';
 
 import databaseConfig from '../config/database';
 
-const models = [User, Recipients, Deliveryman, File];
+const models = [User, Recipients, Deliveryman, File, Order, DeliveryProblems];
 
 class Database {
   constructor() {
